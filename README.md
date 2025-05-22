@@ -118,7 +118,6 @@
             <h6>CompTia A+ Computer Repair</h6>
             <p>10 years experience</p>
           </div>  
-
       </div>
     </section>
           
@@ -168,7 +167,6 @@
             <ul>
               <li>HTML/CSS tools to build survey form and focus on accessibility and responsive design.</li>
             </ul>
-            
           </div>
           
     </div>
@@ -206,11 +204,10 @@
         </div>
         <div class="recommendation"><br/>
             <span>&#8220;</span>
-          There is great talent in Rosalind's full-stack development.
+          There is great talent in Rosalind's web application development.
           "I Highly Recommend"!
             <span>&#8221;</span>
         </div>
-    </section>
 
     <!-- Recommendation Form -->
     <section id="contact">
@@ -225,7 +222,6 @@
             <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
           </div>
         </fieldset>
-      </div>
     </section>
 
     <div class="iconbutton">
