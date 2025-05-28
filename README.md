@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>           <!--1st PROJECT-->
 <html>
   <head>
     <title>Rosalind Fowlkes-Portfolio</title>
@@ -35,8 +35,6 @@
     <section id="about-me" class="container"><br/><br/><br/><br/>
       <div><br/>
         
-
-
 <img src="https://cdn.pixabay.com/photo/2018/01/04/14/16/woman-3060784_1280.jpg" alt="" class="profile_image"/> 
       </div>
       
@@ -108,7 +106,6 @@
  
           <div class="skill">
             <img src="https://cdn.pixabay.com/photo/2018/12/06/10/43/algorithm-3859536_1280.jpg" alt=""/>
-
             <h6>Machine Learning</h6>
             <p>1 month experience</p>
           </div>  
@@ -565,8 +562,6 @@ button:hover {
   cursor: pointer;
 }
 
-
-
 function addRecommendation() {
   // Get the message of the new recommendation
   let recommendation = document.getElementById("new_recommendation");
@@ -594,3 +589,6 @@ function showPopup(bool) {
     document.getElementById('popup').style.visibility = 'hidden'
   }
 }
+
+
+                        
