@@ -1,11 +1,11 @@
-name: Auto Label Issues
+name: Auto Label and Assign Issues
 
 on:
   issues:
     types: [opened]
 
 jobs:
-  labeler:
+  label_and_assign:
     runs-on: ubuntu-latest
     steps:
       - uses: Naturalclar/issue-action@v2.0.2
@@ -38,4 +38,6 @@ jobs:
                 "labels": ["backend"]
               }
             ]
+          assignees: "moneyhouse"
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+
